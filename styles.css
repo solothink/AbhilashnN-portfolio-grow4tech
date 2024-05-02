@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Default font */
+    background-color: #97CADB ; /* Light background for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #11212D; /* Dark background for header */
+    color: #ddd; /* White text for header */
+    padding: 20px;
+    text-align: center;
+}
+
+/* About Section Styles */
+#about {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Skills Section Styles */
+#skills ul {
+    text-align: center;
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    box-shadow: #ddd;
+}
+
+#skills li {
+    background-color: #D0D7E1;
+   /* Light grey background for skills */
+   border-radius: 500px;
+   box-sizing: 10px;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+/* Projects Section Styles */
+#projects .project-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Shadow effect */
+    margin: 10px;
+    padding: 20px;
+    box-shadow: #02457A;
+    text-align: center;
+}
+
+#projects img {
+    width: 100%; /* Make images responsive */
+    height: auto;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Dark background for footer */
+    color: white; /* White text for footer */
+    padding: 20px;
+    text-align: center;
+}
+
+footer a:hover {
+    color: #ddd; /* Change link color on hover */
+}
+.animated
+ {
+transition: all 0.5s;
+}
